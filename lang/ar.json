@@ -1,0 +1,13 @@
+{
+    "name": "اسم المستخدم",
+    "email": "البريد الالكتروني",
+    "password": "كلمة المرور",
+    "password_confirmation": "تأكيد كلمة المرور",
+    "sync_permissions": "تحديث الأذونات المتاحة",
+    "role_permissions_hint": "إذا اخترت أي إجراء، يرجى التأكد من تحديد صلاحيات \"العرض\" و \"عرض الكل\".",
+    "permissions_synchronized_successfully": "تم تحديث الأذونات بنجاح.",
+    "users": "المستخدمين",
+    "user": "المستخدم",
+    "roles": "الأدوار",
+    "permissions": "الصلاحيات"
+}
