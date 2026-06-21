@@ -196,6 +196,37 @@ return [
     |
     */
 
-    'attributes' => [],
+    'attributes' => [
+        'name' => 'Name',
+        'phone' => 'Phone Number',
+        'email' => 'Email',
+        'date_of_birth' => 'Date of Birth',
+        'gender' => 'Gender',
+        'password' => 'Password',
+        'image' => 'Image',
+        'country_code' => 'Country Code',
+        'terms_and_conditions' => 'Terms and Conditions',
+    ],
+
+    'country_codes' => [
+        'US' => 'United States',
+        'SA' => 'Saudi Arabia',
+        'AE' => 'United Arab Emirates',
+        'EG' => 'Egypt',
+        'KW' => 'Kuwait',
+        'BH' => 'Bahrain',
+        'QA' => 'Qatar',
+        'OM' => 'Oman',
+        'JO' => 'Jordan',
+        'LB' => 'Lebanon',
+        'MA' => 'Morocco',
+        'TN' => 'Tunisia',
+        'DZ' => 'Algeria',
+        'SD' => 'Sudan',
+        'IQ' => 'Iraq',
+        'SY' => 'Syria',
+        'YE' => 'Yemen',
+        'PS' => 'Palestine',
+    ],
 
 ];

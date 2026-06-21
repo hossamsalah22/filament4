@@ -1,5 +1,5 @@
 {
-    "name": "User Name",
+    "name": "Name",
     "email": "Email",
     "password": "Password",
     "password_confirmation": "Password Confirmation",
@@ -9,5 +9,24 @@
     "users": "Users",
     "user": "User",
     "roles": "Roles",
-    "permissions": "Permissions"
+    "permissions": "Permissions",
+    "male": "Male",
+    "female": "Female",
+    "other": "Other",
+    "location_management": "Location Management",
+    "country": "Country",
+    "countries": "Countries",
+    "region": "Region",
+    "regions": "Regions",
+    "city": "City",
+    "cities": "Cities",
+    "district": "District",
+    "districts": "Districts",
+    "ar": "Arabic",
+    "en": "English",
+    "iso": "ISO",
+    "iso3": "ISO3",
+    "numcode": "Numcode",
+    "phonecode": "Phonecode",
+    "currency_code": "Currency Code"
 }

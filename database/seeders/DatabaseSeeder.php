@@ -18,6 +18,10 @@ class DatabaseSeeder extends Seeder
             ShieldSeeder::class,
             RoleSeeder::class,
             AdminSeeder::class,
+            CountrySeeder::class,
+            RegionSeeder::class,
+            CitySeeder::class,
+            DistrictSeeder::class,
         ]);
     }
 }

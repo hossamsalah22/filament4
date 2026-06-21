@@ -1,5 +1,5 @@
 {
-    "name": "اسم المستخدم",
+    "name": "الإسم",
     "email": "البريد الالكتروني",
     "password": "كلمة المرور",
     "password_confirmation": "تأكيد كلمة المرور",
@@ -9,5 +9,24 @@
     "users": "المستخدمين",
     "user": "المستخدم",
     "roles": "الأدوار",
-    "permissions": "الصلاحيات"
+    "permissions": "الصلاحيات",
+    "male": "ذكر",
+    "female": "أنثى",
+    "other": "أخرى",
+    "location_management": "إدارة المواقع",
+    "country": "الدولة",
+    "countries": "الدول",
+    "region": "المنطقة",
+    "regions": "المناطق",
+    "city": "المدينة",
+    "cities": "المدن",
+    "district": "الحي",
+    "districts": "الأحياء",
+    "ar": "العربية",
+    "en": "الإنجليزية",
+    "iso": "رمز الأيزو",
+    "iso3": "رمز الأيزو الثلاثي",
+    "numcode": "الرمز الرقمي",
+    "phonecode": "رمز الهاتف",
+    "currency_code": "رمز العملة"
 }

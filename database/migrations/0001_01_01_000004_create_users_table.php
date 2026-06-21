@@ -13,10 +13,20 @@ return new class extends Migration
     {
         Schema::create('users', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->string('email')->unique();
-            $table->timestamp('email_verified_at')->nullable();
-            $table->string('password');
+            $table->string('name')->nullable(); // nullable only for google and apple login
+            $table->string('phone')->nullable()->unique(); // nullable only for google and apple login
+            $table->string('country_code', 2)->default('SA');
+            $table->string('email')->nullable()->unique(); // nullable only for google and apple login
+            $table->date('date_of_birth')->nullable(); // nullable only for google and apple login
+            $table->string('gender')->nullable(); // nullable only for google and apple login
+            $table->boolean('is_active')->default(true);
+            $table->boolean('is_verified')->default(false);
+            $table->boolean('receive_notifications')->default(true);
+            $table->string('otp')->nullable();
+            $table->timestamp('otp_expires_at')->nullable();
+            $table->char('locale', 5)->default('ar');
+            $table->string('google_id')->nullable();
+            $table->string('apple_id')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });
